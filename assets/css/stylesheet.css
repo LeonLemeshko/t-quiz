@@ -1,0 +1,121 @@
+/* importing google fonts */
+/* @import url ('https://fonts.googleapis.com/css2?family=Poppins') */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+body {
+    background: #007bff;
+}
+
+
+.start_btn,
+.info_box  {
+    position:absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+/* Start Quiz Button Styling */
+
+button {
+    font-size: 25px;
+    font-weight: 500;
+    color: #007bff;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;    
+}
+
+.info_box {
+    display: none;
+    width: 540px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+
+.info_title {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightslategray;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info_list {
+    padding: 15px 35px;
+    line-height: 1.8rem;
+}
+
+.info {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.info span {
+    font-weight: 600;
+    color: #007bff;
+}
+
+
+.buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid lightslategray;    
+}
+
+ .button {
+    margin: 0 0 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1 px solid #007bff; 
+    border-radius: 5px;
+    color: #fff;
+    background-color: lightgray;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.restart:hover {
+    background: #0263ca;
+}
+
+
+.quit:hover {
+    color:#fff;
+    background: #007bff;
+
+}
+
+
+.restart {
+    color: #fff;
+    background: #007bff;
+}
+
+
+.quit {
+    color: #007bff;
+}
+
+
+
+
